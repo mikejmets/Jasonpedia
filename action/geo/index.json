@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "$geo",
+      "title": " head $geo",
       "actions": {
         "$load": {
           "type": "$render"
@@ -56,7 +56,7 @@
               "background": "#50BFFF",
               "color": "#ffffff"
             },
-            "title": "$geo"
+            "title": "map $geo"
           },
           "layers": [{
             "type": "label",
@@ -107,7 +107,7 @@
               "background": "#50BFFF",
               "color": "#ffffff"
             },
-            "title": "$geo"
+            "title": "coord $geo"
           },
           "layers": [{
             "type": "label",
@@ -154,7 +154,7 @@
               "background": "#50BFFF",
               "color": "#ffffff"
             },
-            "title": "$geo"
+            "title": "body $geo"
           },
           "layers": [{
             "type": "label",
